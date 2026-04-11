@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.continer{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+header{
+    height: 100vh;
+    background: url(/img/pexels-kubra-cetin-2160408296-36702867.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.text{
+    max-width: 600px;
+    text-align: center;
+    background: rgba(202, 201, 201, 0.407);
+    padding: 50px;
+    border-radius: 10px;
+     
+
+}
+.text h1{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.25; 
+    padding: 20px;
+
+}
+.text p{
+    line-height: 2;
+}
+.btn{
+    text-decoration: none;
+    background: #33312f;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    text-decoration: none;
+    background: #DD9E59;
+ 
+}
+.under-text{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+    
+    
+}
+.under-text div{
+    display: flex;
+    align-items: center;
+    color: rgb(26, 26, 26);gap: 5px;
+
+
+   
+}
+.sec-sectin{
+    padding: 50px 30px;
+
+}
+/* Our solutin secton css */
+.solution{
+    background: rgb(184, 184, 184);
+
+}
+.solution{
+    padding: 50px 20px;
+}
+.solutin-text{
+    text-align: center;
+    max-width: 500px ;
+    margin: 0 auto;
+
+
+}
+.solutin-text h3{
+    background: rgb(225, 196, 225);
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.solutin-text h2{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+    
+}
+.solutin-text h2>span{
+    font-size: 36px;
+    color: rgb(255, 39, 1);
+    background: none;    
+
+}
+.solutin-text p{
+    padding-bottom: 40px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px   ;
+
+}
+.card div{
+    padding: 20px;
+    text-align: left;
+    background: gray;
+    border-radius: 15px;
+
+
+
+}
