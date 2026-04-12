@@ -120,25 +120,97 @@ header{
     padding-bottom: 40px;
 }
 .card{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px   ;
+    display: flex;  
+    gap: 30px;
 
 }
 .card div{
-    padding: 20px;
+    padding: 30px;
     text-align: left;
     background: gray;
     border-radius: 15px;
     max-width: 400px;
 
+}
+.card div h3{
+    font-size: 20px;
+    padding: 10px 0;
 
+}
+.card div p{
+    font-size: 18px;
+    padding: 10px 0;
+
+}
+@media (max-width:900px) {
+    .card{
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media  screen and (max-width:600px) {
     .card{
         flex-direction: column;
-        justify-content: center;        
+        align-items: center;
+    }
+    
+}
+.talk{
+    padding: 50px 0;
 
+}
+.talk-text{
+    text-align: center;
+    max-width: 500px;
+
+    padding: 30px 0;
+    margin:  0 auto;
+
+}
+.talk-text h2{
+    text-align: center;
+    padding: 10px;
+
+}
+.talk-text p{
+    font-size: 18px;
+    line-height: 2;
+
+}
+.talk-card{
+    display: flex;
+    gap: 10px   ;
+    justify-content: space-evenly;
+    
+}
+.talk-card div{
+    border: 2px solid black;
+    padding: 30px;
+    color: rgb(97, 97, 97);
+    text-align: center;  
+    max-width: 400px;
+    border-radius: 15px;
+    margin: 10px;
+
+
+}
+.talk-card span{
+    font-size: 40px;
+    display: block;
+    padding: 10px;
+    font-weight: 700;
+
+}
+@media (max-width:900px) {
+    .talk-card{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+
+    }
+    .talk-card div{
+        width: 100%;
     }
     
 }
