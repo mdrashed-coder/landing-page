@@ -14,7 +14,8 @@ img{
 }
 header{
     height: 100vh;
-    background: url(/img/pexels-kubra-cetin-2160408296-36702867.jpg);
+    background: url(../img/pexels-kubra-cetin-2160408296-36702867.jpg);
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,7 +295,6 @@ header{
 }
 .reviow-card div{
     max-width: 500px;
-    background: violet;
     padding: 20px;
 
 }
@@ -303,4 +303,93 @@ header{
     
     
 
+}
+.reviow-card {
+
+}
+.reviow-card{
+    display: flex;
+    gap: 20px;  
+    margin-top: 20px;
+
+
+}
+.card-sec{
+    background: rgba(238, 130, 238, 0.364);
+    border-radius: 15px;
+        
+}
+@media (max-width:900px) {
+    .reviow-card{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;       
+
+    }    
+}
+.freques-question{
+    padding: 50px 0;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+.freques-question h2{
+    font-size: 36px;
+    padding: 20px 0;
+
+}
+.freques-question p{
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+.flex span{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.flex i{
+    font-size: 25px;
+}
+.footer-manu{
+    padding: 70px 0;
+
+}
+.footer-manu h5{
+    padding: 20px 0;
+    font-size: 25px;
+}
+.footer-manu{
+    display: flex;
+}
+.footer-manu div{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+
+}
+.footer-manu div a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(47, 47, 47);
+    padding: 10px ;
+    font-weight: 700;
+
+}
+@media (max-width:600px) {
+    .footer-manu div{
+        width: 100%;
+    }
+    .footer-manu{
+        flex-direction: column;
+    }
+
+    
 }
