@@ -25,7 +25,7 @@ header{
 
 
 }
-.text{
+.hero-section .text{
     max-width: 600px;
     text-align: center;
     background: rgba(202, 201, 201, 0.407);
@@ -34,14 +34,14 @@ header{
      
 
 }
-.text h1{
+.hero-section .text h1{
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 0.25; 
     padding: 20px;
 
 }
-.text p{
+.hero-section .text p{
     line-height: 2;
 }
 .btn{
@@ -61,7 +61,7 @@ header{
     background: #DD9E59;
  
 }
-.under-text{
+.hero-section .under-text{
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -69,7 +69,7 @@ header{
     
     
 }
-.under-text div{
+.hero-section .under-text div{
     display: flex;
     align-items: center;
     color: rgb(26, 26, 26);gap: 5px;
@@ -213,4 +213,94 @@ header{
         width: 100%;
     }
     
+}
+
+.exprence  .text {
+    text-align: left;
+    max-width: 500px;
+    padding: 30px 20px;
+    background: rgba(224, 223, 223, 0.494);
+    border-top: 3px solid rgb(0, 255, 153);    
+}
+.exprence  .text h3{
+    font-size: 20px;
+    padding: 20px 0;    
+}
+.exprence  .text span{
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+.exprence  .text a{
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+.exprence .under-section video{
+    width: 100%;
+}
+.exprence .under-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:  0 auto;
+    padding: 30px 0;
+
+}
+@media (max-width:900px) {
+    .exprence .under-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+              
+    }
+    
+    .exprence .under-section .text{
+        align-items: center;
+
+              
+    }
+    .under-section video{
+        width: fit-content;
+    }
+    
+}
+.reviow{
+    background: rgb(4, 140, 63);
+    padding: 50px 0;
+
+}
+.reviow-text {
+    max-width: 600px;
+    margin: 0 auto;
+
+
+    
+}
+.reviow-text h2{
+    font-size: 25px;
+    padding: 10px 0;
+
+}
+.reviow-text {
+    font-size: 18px;
+    padding: 10px 0;
+    line-height: 2;
+
+}
+.reviow-card div{
+    max-width: 500px;
+    background: violet;
+    padding: 20px;
+
+}
+.reviow-card div i{
+    color: tomato;
+    
+    
+
 }
