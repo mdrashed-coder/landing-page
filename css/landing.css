@@ -14,7 +14,7 @@ img{
 }
 header{
     height: 100vh;
-    background: url(../img/pexels-kubra-cetin-2160408296-36702867.jpg);
+    background: url("../img/pexels-kubra-cetin-2160408296-36702867.jpg");
 
     background-position: center;
     background-repeat: no-repeat;
